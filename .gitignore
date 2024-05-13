@@ -2,3 +2,4 @@
 pytorch-venv/
 ##data/parsed/
 data/MNIST/
+feedforwardnet.pth
