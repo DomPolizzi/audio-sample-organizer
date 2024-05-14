@@ -1,19 +1,22 @@
-## HELLO
-Utilizing `jupyter notebook` FYI
+# Audio Sample Organizer
+This project is hopefully to become a solution to mine and millions of others problem of managing Audio Samples for music production
+
+During the testing stage, I am utilizing `jupyter notebook` FYI.
 
 
-### Helpful Links:
+## Environment setup & Helpful Links:
 - Setting up VENV Kernel: https://saturncloud.io/blog/how-to-add-a-python-3-kernel-to-jupyter-ipython/
 
 - Installing and creating Jupyter Service: https://www.howtoforge.com/guide-to-install-jupyterlab-on-debian-12/
 
 
-### Notes:
+### Dev Notes:
 
 #### 5-2-24
 - TensorFlow does not support WAVE Files above 16-bit. Convert notebook was supposed to handle audio conversion, but fails for some reason. moving to Pytorch. - 
 
 
 #### 5-14-24
-- using the UrbanSound8K dataset  https://urbansounddataset.weebly.com/urbansound8k.html
+- using the UrbanSound8K dataset  https://urbansounddataset.weebly.com/urbansound8k.html | Free to download, but added to the `.gitignore` since its huge
 - moved most of the testing/ old notebooks to the `notebooks/` 
+- Since moving to `Pytorch`, there have been hurrdles in getting this to even detect the difference in samples, if only Tensorflow wasn't so picky . . .
