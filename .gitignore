@@ -1,5 +1,4 @@
 .ipynb_checkpoints/
 pytorch-venv/
-##data/parsed/
 data/MNIST/
-feedforwardnet.pth
+UrbanSound8K/
