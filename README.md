@@ -8,10 +8,12 @@ Utilizing `jupyter notebook` FYI
 - Installing and creating Jupyter Service: https://www.howtoforge.com/guide-to-install-jupyterlab-on-debian-12/
 
 
-#### Tensorflow:
+### Notes:
 
-- Does not support WAVE Files above 16-bit. Convert notebook was supposed to handle audio conversion, but fails for some reason. moving to Pytorch. - 5-2-24
-- https://www.youtube.com/watch?v=ZLIPkmmDJAc&t=737s 
+#### 5-2-24
+- TensorFlow does not support WAVE Files above 16-bit. Convert notebook was supposed to handle audio conversion, but fails for some reason. moving to Pytorch. - 
 
 
-https://youtu.be/4p0G6tgNLis?si=V8GvG5i-rJsVGSpz&t=18
+#### 5-14-24
+- using the UrbanSound8K dataset  https://urbansounddataset.weebly.com/urbansound8k.html
+- moved most of the testing/ old notebooks to the `notebooks/` 
