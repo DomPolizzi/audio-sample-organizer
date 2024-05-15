@@ -20,3 +20,4 @@ During the testing stage, I am utilizing `jupyter notebook` FYI.
 - using the UrbanSound8K dataset  https://urbansounddataset.weebly.com/urbansound8k.html | Free to download, but added to the `.gitignore` since its huge
 - moved most of the testing/ old notebooks to the `notebooks/` 
 - Since moving to `Pytorch`, there have been hurrdles in getting this to even detect the difference in samples, if only Tensorflow wasn't so picky . . .
+- TorchAudio Transforms:  https://pytorch.org/audio/stable/transforms.html
