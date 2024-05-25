@@ -21,3 +21,25 @@ During the testing stage, I am utilizing `jupyter notebook` FYI.
 - moved most of the testing/ old notebooks to the `notebooks/` 
 - Since moving to `Pytorch`, there have been hurrdles in getting this to even detect the difference in samples, if only Tensorflow wasn't so picky . . .
 - TorchAudio Transforms:  https://pytorch.org/audio/stable/transforms.html
+
+#### 5-18-24
+- For debugging, ensure you set the .vscode/launch.json as follows:
+```
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "${fileDirname}",
+            "purpose":["debug-in-terminal"]
+        }
+    ]
+}
+```
+
+#### 5-24-24
+- Model c_n_n.pth is not identifying correctly.
